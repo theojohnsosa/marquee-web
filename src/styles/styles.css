@@ -481,3 +481,76 @@ html, body {
     font-family: var(--primary-font);
     font-size: 1rem;
 }
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.contact-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.contact-header h1 {
+    font-family: var(--primary-font);
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.10);
+    margin-bottom: 5px;
+}
+
+.contact-header p {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 15px;
+    background: linear-gradient(to top, #242424, var(--primary-color));
+    box-shadow: 0 2px 4px rgba(0,0,0,0.10), 0 6px 12px rgba(0,0,0,0.08), 0 1.5px 3px rgba(0,0,0,0.12);
+}
+
+.creator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.creator-container h1 {
+    font-family: var(--primary-font);
+    font-size: 1.8rem;
+    color: var(--white-color);
+    margin-bottom: 5px;
+}
+
+.creator-container p {
+    font-family: var(--primary-font);
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+}
