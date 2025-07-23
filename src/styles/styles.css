@@ -37,8 +37,9 @@ html, body {
     z-index: 999;
     position: sticky;
     top: 0;
-    background: #f8f8f8 transparent;
-    border-bottom: 1px solid var(--secondary-color);    
+    background: rgba(240, 240, 240, 0.7);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(6px);
 }
 
 .nav-container {
@@ -114,4 +115,58 @@ html, body {
 #cta-btn:hover {
     background: var(--secondary-color);
     box-shadow: 0 2px 4px rgba(0,0,0,0.10), 0 6px 12px rgba(0,0,0,0.08), 0 1.5px 3px rgba(0,0,0,0.12);
+}
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    padding: 40px;
+}
+
+.cta-container p {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+}
+
+.cta-container h1 {
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.cta-container img {
+    margin: 0 15px;
+    transform: translateY(18%);
+}
+
+.demo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.demo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+}
+
+.demo-container img {
+    width: 100%;
 }
