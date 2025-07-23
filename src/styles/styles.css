@@ -214,30 +214,30 @@ html, body {
 }
 
 .about-section {
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 .about-container {
-    background-color: green;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
     flex-direction: column;
     text-align: center;
+    width: 100%;
 }
 
 .about-header {
-    background-color: blue;
-    margin-bottom: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
 }
 
 .about-header h1 {
@@ -253,14 +253,43 @@ html, body {
     color: var(--secondary-color);
 }
 
-.opening-text {
-    background-color: yellow;
+.about-content {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+}
+
+.opening-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+}
+
+.opening-text h1 {
+    font-family: var(--primary-font);
+    font-size: 2rem;
 }
 
 .story-text {
-    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 78%;
+    padding: 30px;
+}
+
+.story-text p {
+    font-family: var(--primary-font);
+    font-size: 1.2rem;
+}
+
+.bold {
+    font-family: var(--primary-font);
+    font-weight: 600;
 }
