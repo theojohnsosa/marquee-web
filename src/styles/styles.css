@@ -530,6 +530,7 @@ html, body {
     flex-direction: column;
     padding: 30px;
     border-radius: 15px;
+    width: 60%;
     background: linear-gradient(to top, #242424, var(--primary-color));
     box-shadow: 0 2px 4px rgba(0,0,0,0.10), 0 6px 12px rgba(0,0,0,0.08), 0 1.5px 3px rgba(0,0,0,0.12);
 }
@@ -551,6 +552,39 @@ html, body {
 
 .creator-container p {
     font-family: var(--primary-font);
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--secondary-color);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+    width: 100%;
+    padding: 20px;
+}
+
+.name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    background-color: green;
+}
+
+.email-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
