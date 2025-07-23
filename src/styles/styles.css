@@ -294,14 +294,15 @@ html, body {
     font-weight: 600;
 }
 
-.about-section {
+.services-section {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    background-color: red;
 }
 
-.about-container {
+.services-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -309,9 +310,10 @@ html, body {
     flex-direction: column;
     text-align: center;
     width: 100%;
+    background-color: green;
 }
 
-.about-header {
+.services-header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -319,25 +321,18 @@ html, body {
     margin-bottom: 20px;
     padding: 20px;
     width: 100%;
+    background-color: blue;
 }
 
-.about-header h1 {
+.services-header h1 {
     font-family: var(--primary-font);
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.10);
     margin-bottom: 5px;
 }
 
-.about-header p {
+.services-header p {
     font-family: var(--primary-font);
     font-size: 1rem;
     color: var(--secondary-color);
-}
-
-.about-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
 }
