@@ -127,6 +127,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .cta-container {
@@ -197,6 +198,7 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 40px;
+    width: 100%;
 }
 
 .demo-container {
@@ -218,6 +220,7 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    width: 100%;
 }
 
 .about-container {
@@ -299,6 +302,7 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    width: 100%;
 }
 
 .services-container {
@@ -382,11 +386,12 @@ html, body {
     color: var(--white-color);
 }
 
-.about-section {
+.faqs-section {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    width: 100%;
 }
 
 .faqs-container {
@@ -420,4 +425,56 @@ html, body {
     font-family: var(--primary-font);
     font-size: 1rem;
     color: var(--secondary-color);
+}
+
+.faqs-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid var(--secondary-color);
+    gap: 10px;
+}
+
+.faqs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to left, #242424, var(--primary-color));
+    width: 100%;
+    border-radius: 10px;
+    height: 55px;
+    padding: 30px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.10), 0 6px 12px rgba(0,0,0,0.08), 0 1.5px 3px rgba(0,0,0,0.12);
+}
+
+.faq-question p {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--white-color);
+}
+
+.faq-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+.faq-panel p {
+    font-family: var(--primary-font);
+    font-size: 1rem;
 }
