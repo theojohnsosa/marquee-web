@@ -381,3 +381,43 @@ html, body {
     font-size: 1rem;
     color: var(--white-color);
 }
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.faqs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.faqs-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.faqs-header h1 {
+    font-family: var(--primary-font);
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.10);
+    margin-bottom: 5px;
+}
+
+.faqs-header p {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
