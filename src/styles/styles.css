@@ -110,17 +110,17 @@ html, body {
     font-family: var(--primary-font);
     font-size: 1rem;
     font-weight: 500;
-    background: var(--primary-color);
+    background: linear-gradient(to left, #242424, var(--primary-color));
     border-radius: 100px;
     border: none;
     color: var(--white-color);
     padding: 15px 30px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.10), 0 6px 12px rgba(0,0,0,0.08), 0 1.5px 3px rgba(0,0,0,0.12);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 #cta-btn:hover {
-    background: var(--secondary-color);
+    background: linear-gradient(to right, #242424, var(--primary-color));
 }
 
 .cta-section {
@@ -204,7 +204,7 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 40px;
-    background-color: var(--primary-color);
+    background: linear-gradient(to bottom, #242424, var(--primary-color));
     border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.10), 0 6px 12px rgba(0,0,0,0.08), 0 1.5px 3px rgba(0,0,0,0.12);
 }
@@ -299,7 +299,6 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: red;
 }
 
 .services-container {
@@ -310,7 +309,6 @@ html, body {
     flex-direction: column;
     text-align: center;
     width: 100%;
-    background-color: green;
 }
 
 .services-header {
@@ -321,7 +319,6 @@ html, body {
     margin-bottom: 20px;
     padding: 20px;
     width: 100%;
-    background-color: blue;
 }
 
 .services-header h1 {
@@ -335,4 +332,52 @@ html, body {
     font-family: var(--primary-font);
     font-size: 1rem;
     color: var(--secondary-color);
+}
+
+.cards-container {
+    width: 100%;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.cards {
+    background: linear-gradient(to bottom, #242424, var(--primary-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 430px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.10), 0 6px 12px rgba(0,0,0,0.08), 0 1.5px 3px rgba(0,0,0,0.12);
+    transition: all 0.10s ease-in-out;
+}
+
+.cards:hover {
+    background: linear-gradient(to top, #242424, var(--primary-color));
+    transform: rotate(1deg);
+}
+
+.cards img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.cards h1 {
+    font-family: var(--primary-font);
+    font-size: 2em;
+    color: var(--white-color);
+    margin-bottom: 15px;
+}
+
+.cards p {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    color: var(--white-color);
 }
