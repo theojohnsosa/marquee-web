@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('/src/assets/fonts/calibri/calibri-bold.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'SF Pro';
+    src: url('/src/assets/fonts/sf-pro/SF-Pro.ttf') format('opentype');
+}
+
+:root {
+    font-family: 'SF Pro';
+}
