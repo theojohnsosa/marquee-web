@@ -212,3 +212,55 @@ html, body {
 .demo-container img {
     width: 100%;
 }
+
+.about-section {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.about-container {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-header {
+    background-color: blue;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-header h1 {
+    font-family: var(--primary-font);
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.10);
+    margin-bottom: 5px;
+}
+
+.about-header p {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+.opening-text {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.story-text {
+    background-color: orange;
+}
