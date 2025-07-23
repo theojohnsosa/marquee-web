@@ -446,6 +446,10 @@ html, body {
     flex-direction: column;
 }
 
+.faqs:hover {
+    cursor: pointer;
+}
+
 .faq-question {
     display: flex;
     justify-content: space-between;
