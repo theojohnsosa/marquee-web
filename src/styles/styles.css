@@ -94,7 +94,7 @@ html, body {
 .nav-menu li a:hover {
     text-decoration: underline;
     cursor: pointer;
-    background-color: var(--primary-color);
+    background: linear-gradient(to left, #242424, var(--primary-color));
     padding: 10px;
     border-radius: 10px;
     border: none;
