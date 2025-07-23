@@ -88,11 +88,18 @@ html, body {
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 1rem;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-menu li a:hover {
     text-decoration: underline;
     cursor: pointer;
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: var(--white-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.10), 0 6px 12px rgba(0,0,0,0.08), 0 1.5px 3px rgba(0,0,0,0.12);
 }
 
 .cta-btn-container {
@@ -114,7 +121,6 @@ html, body {
 
 #cta-btn:hover {
     background: var(--secondary-color);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.10), 0 6px 12px rgba(0,0,0,0.08), 0 1.5px 3px rgba(0,0,0,0.12);
 }
 
 .cta-section {
@@ -151,6 +157,41 @@ html, body {
     transform: translateY(18%);
 }
 
+.cta-container img:hover {
+    transform: translateY(-10%);
+    transition: all 0.3s ease-in-out;
+}
+
+#yellow-shine {
+    display: inline-block;
+    transform: rotate(20deg);
+}
+
+#yellow-shine:hover {
+    transform: rotate(-1deg);
+    transition: all 0.5s ease-in-out;
+}
+
+#red-popcorn {
+    display: inline-block;
+    transform: rotate(-20deg);
+}
+
+#red-popcorn:hover {
+    transform: rotate(1deg);
+    transition: all 0.5s ease-in-out;
+}
+
+#blue-film {
+    display: inline-block;
+    transform: rotate(20deg);
+}
+
+#blue-film:hover {
+    transform: rotate(-1deg);
+    transition: all 0.5s ease-in-out;
+}
+
 .demo-section {
     display: flex;
     justify-content: center;
@@ -165,6 +206,7 @@ html, body {
     padding: 40px;
     background-color: var(--primary-color);
     border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.10), 0 6px 12px rgba(0,0,0,0.08), 0 1.5px 3px rgba(0,0,0,0.12);
 }
 
 .demo-container img {
