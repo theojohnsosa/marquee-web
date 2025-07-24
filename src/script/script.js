@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'About': '.about-section',
         'Services': '.services-section',
         'FAQs': '.faqs-section',
-        'Contact': '.about-section' 
+        'Contact': '.contact-section' 
     };
 
     const navLinks = document.querySelectorAll('.nav-menu a');
