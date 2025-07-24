@@ -561,19 +561,34 @@ form {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: red;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 
 .name-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
-    background-color: green;
+    padding: 10px;
+}
+
+.name-container label {
+    font-family: var(--primary-font);
+    font: 1.3rem;
+    font-weight: 500;
+    color: var(--white-color);
+    margin-bottom: 5px;
+}
+
+.name-container input {
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--secondary-color);
 }
 
 .email-container {
@@ -581,6 +596,52 @@ form {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.email-container label {
+    font-family: var(--primary-font);
+    font: 1.3rem;
+    font-weight: 500;
+    color: var(--white-color);
+    margin-bottom: 5px;
+}
+
+.email-container input {
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--secondary-color);
+}
+
+.message-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.message-container label {
+    font-family: var(--primary-font);
+    font: 1.3rem;
+    font-weight: 500;
+    color: var(--white-color);
+    margin-bottom: 5px;
+}
+
+.message-container textarea {
+    width: 100%;
+    height: 220px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--secondary-color);
+    resize: none;
 }
 
 .button-container {
