@@ -193,3 +193,30 @@ if (ctaBtn) {
 
     ctaBtn.addEventListener('mouseenter', animateShine);
 }
+
+const footerArrow = document.querySelector('.footer-alt img');
+if (footerArrow) {
+    footerArrow.style.cursor = 'pointer';
+    footerArrow.addEventListener('click', function() {
+        window.location.href = 'mailto:theojohnsosa@gmail.com';
+    });
+}
+
+
+const creatorEmailFooter = document.querySelector('.creator-email');
+if (creatorEmailFooter) {
+    creatorEmailFooter.style.cursor = 'pointer';
+    creatorEmailFooter.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.location.href = 'mailto:theojohnsosa@gmail.com';
+    });
+}
+
+const creatorEmailForm = document.querySelector('.creator-container p');
+if (creatorEmailForm) {
+    creatorEmailForm.style.cursor = 'pointer';
+    creatorEmailForm.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.location.href = 'mailto:theojohnsosa@gmail.com';
+    });
+}

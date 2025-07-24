@@ -5,7 +5,7 @@
 }
 
 html, body {
-    max-width: 1200px;
+    max-width: 1300px;
     background: var(--white-color);
 }
 
@@ -557,6 +557,11 @@ html, body {
     color: var(--secondary-color);
 }
 
+.creator-container p:hover {
+    color: var(--white-color);
+    text-decoration: underline;
+}
+
 form {
     display: flex;
     justify-content: center;
@@ -689,7 +694,6 @@ form {
     flex-direction: column;
     text-align: center;
     width: 100%;
-    background-color: red;
 }
 
 .footer-logo {
@@ -697,7 +701,6 @@ form {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    background-color: green;
 }
 
 .footer-logo a {
@@ -711,7 +714,6 @@ form {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    background-color: blue;
     margin-bottom: 20px;
 }
 
@@ -719,6 +721,7 @@ form {
     font-family: var(--primary-font);
     font-size: 2rem;
     color: var(--secondary-color);
+    margin-bottom: -18px;
 }
 
 .footer-alt {
@@ -726,12 +729,11 @@ form {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    background-color: yellow;
 }
 
 .footer-alt h1 {
     font-family: var(--primary-font);
-    font-size: 5rem;
+    font-size: 6rem;
     color: var(--white-color);
 }
 
@@ -744,7 +746,6 @@ form {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    background-color: orange;
 }
 
 .footer-contacts h6 {
@@ -754,9 +755,54 @@ form {
     margin-bottom: 2px;
 }
 
-.footer-contacts p {
+.creator-email {
     font-family: var(--primary-font);
     color: var(--secondary-color);
     font-size: 1rem;
     text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.creator-email:hover {
+    color: var(--white-color);
+}
+
+.socials-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linkedin-container,
+.github-container,
+.instagram-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+    width: 100%;
+}
+
+.linkedin-container a,
+.github-container a,
+.instagram-container a {
+    text-decoration: none;
+}
+
+.linkedin-container a p:hover,
+.github-container a p:hover,
+.instagram-container a p:hover {
+    color: var(--white-color);
+    text-decoration: underline;
+}
+
+.linkedin-container p,
+.github-container p,
+.instagram-container p {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    color: var(--secondary-color);
 }
