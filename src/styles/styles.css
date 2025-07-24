@@ -580,7 +580,7 @@ form {
     font: 1.3rem;
     font-weight: 500;
     color: var(--white-color);
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .name-container input {
@@ -606,7 +606,7 @@ form {
     font: 1.3rem;
     font-weight: 500;
     color: var(--white-color);
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .email-container input {
@@ -625,6 +625,7 @@ form {
     width: 90%;
     margin: 0 auto;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .message-container label {
@@ -632,7 +633,7 @@ form {
     font: 1.3rem;
     font-weight: 500;
     color: var(--white-color);
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .message-container textarea {
@@ -648,4 +649,24 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 86.5%;
+}
+
+#submit-button {
+    width: 100%;
+    height: 43px;
+    border-radius: 8px;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-family: var(--primary-font);
+    font-size: 0.8rem;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(255,255,255,0.10), 0 6px 12px rgba(255,255,255,0.08), 0 1.5px 3px rgba(255,255,255,0.12);
+    transition: all 0.3s ease-in-out;
+}
+
+#submit-button:hover {
+    background-color: var(--secondary-color);
+    border: none;
 }
